@@ -1,0 +1,24 @@
+# Override the language for specific files or extensions
+
+# Treat all .js files as JavaScript
+*.js linguist-language=JavaScript
+*.sol linguist-language=Solidity
+
+# Treat all .java files as Java
+*.java linguist-language=Java
+
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+*.sol linguist-language=Solidity
+# Ignore minified files from statistics
+*.min.js linguist-vendored
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+
+# For Firebase XML files
+*.xml linguist-language=XML
+
+# Ensure React files (like JSX) are treated as JavaScript
+*.jsx linguist-language=JavaScript
+# Ignore certain folders from language statistics
+node_modules/* linguist-vendored
